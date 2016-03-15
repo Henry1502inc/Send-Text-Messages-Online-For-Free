@@ -21,7 +21,12 @@ class Send_Sms {
     
 }
 
-$Send_Sms = new Send_Sms();
+$Send_Sms = new Send_Sms(
+    $_POST['uipn'], 
+    $_POST['uepn'], 
+    $_POST['uipnc'], 
+    $_POST['uepnc']    
+);
 
 
 
