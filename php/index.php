@@ -9,7 +9,10 @@
 </head>
 
 <body>
-
+<div>
+    <h1>Send Text Messages Online For Free</h1>
+    <p>Please read terms and conditions below,</p>
+</div>
 
 
 
