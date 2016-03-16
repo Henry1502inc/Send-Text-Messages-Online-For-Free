@@ -9,10 +9,32 @@
 </head>
 
 <body>
-<div>
-    <h1>Send Text Messages Online For Free</h1>
-    <p>Please read terms and conditions below,</p>
-</div>
+    <header>
+        <h1>Send Text Messages Online For Free</h1>
+    </header>
+    
+    <section class="input">
+        <form>
+            <label for="uipn">Your Number: </label>
+            <input type="text" id="uipn" />
+            
+            <label for="uipnc">My cell phone carrier: </label>
+            <select id="uipnc">
+                <option label="text" />
+            </select>
+            
+            <label for="uepn">Friends Number: </label>
+            <input type="text" id="uepn" />
+            
+            <label for="uepnc">Friends cell phone carrier: </label>
+            <input type="text" id="uepnc" />
+            
+            <input type="submit" value="Submit"/>
+        </form>            
+        
+        
+        
+    </section>
 
 
 
